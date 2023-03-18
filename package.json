@@ -2,12 +2,14 @@
   "name": "react",
   "private": true,
   "version": "0.0.0",
+	"homepage": "https://github.com/fiik346/react-xox",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
+		"predeploy": "build",
 		"deploy": "gh-pages -d dist"
   },
   "dependencies": {
