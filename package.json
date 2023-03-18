@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-		"predeploy": "build",
+		"predeploy": "tsc && vite build",
 		"deploy": "gh-pages -d dist"
   },
   "dependencies": {
